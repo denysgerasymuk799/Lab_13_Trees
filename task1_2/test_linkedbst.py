@@ -1,0 +1,31 @@
+from linkedbst import LinkedBST
+
+
+if __name__ == '__main__':
+    tree = LinkedBST()
+    tree.add(5)
+    tree.add(3)
+    tree.add(1)
+    tree.add(4)
+    tree.add(8)
+    tree.add(10)
+    tree.add(12)
+    tree.add(0)
+    tree.add(13)
+    tree.add(14)
+    tree.add(5)
+    tree.add(6)
+    tree.add(7)
+    tree.add(9)
+    tree.add(15)
+    tree.add(4.5)
+    print(tree)
+    print("isBalanced()", tree.isBalanced())
+    print("height is", tree.height())
+    print()
+    tree = tree.rebalance()
+    print(tree, "\n")
+    print(tree.successor(5))
+
+    print(tree.inorder())
+    print(tree.range_find(2, 10))

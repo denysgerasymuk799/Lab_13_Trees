@@ -1,20 +1,18 @@
+"""
+search time for different structures
+"""
 import copy
 import timeit
 import random
 
-# with open(file_result_name, "w", encoding="utf-8") as file:
-#     previous_word = ""
-#     while my_stack_result:
-#         word = my_stack_result.pop()
-#         if word != previous_word:
-#             file.write(word + "\n")
-#         previous_word = word
 from linkedbst import LinkedBST
 
 
 def read_dictionary(read_filename):
     """
     Read files
+
+    :return: a list of english words, a list of random words from the file
     """
     with open(read_filename, "r", encoding="utf-8") as file:
         list_en = []
@@ -49,11 +47,18 @@ def read_dictionary(read_filename):
 
 
 def test_list(lst_words, random_lst):
+    """
+    lst_words, random_lst: lists of words
+    """
     for word in random_lst:
         lst_words.index(word)
 
 
 def test_bst_ordered(tree, random_lst):
+    """
+    tree: a tree structure of words
+     random_lst: a list of random words
+    """
     for word in random_lst:
         tree.find(word)
 
@@ -85,7 +90,9 @@ def test_all():
 
         average_test_list = sum(lst_test1) / len(lst_test1)
 
+        print(test_name)
         print(average_test_list)
+        print()
 
 
 if __name__ == '__main__':
