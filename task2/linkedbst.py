@@ -19,7 +19,8 @@ class LinkedBST(AbstractCollection):
 
     # Accessor methods
     def __str__(self):
-        """Returns a string representation with the tree rotated
+        """Returns a string representation with
+         the tree rotated
         90 degrees counterclockwise."""
 
         def recurse(node, level):

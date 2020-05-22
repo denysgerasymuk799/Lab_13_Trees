@@ -2,6 +2,7 @@
 File: abstractcollection.py
 Author: Ken Lambert
 """
+
 class AbstractCollection:
     """An abstract collection implementation."""
 

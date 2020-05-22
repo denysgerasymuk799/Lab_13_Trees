@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0be9222b-a2a1-410c-a71d-56e81948b2f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../task1" beforeDir="false" afterPath="$PROJECT_DIR$/../task1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/board.py" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/btree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/btree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/linkedbst.py" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/linkedbst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/task3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
