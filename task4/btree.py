@@ -1,6 +1,8 @@
 from btnode import BSTNode
 from abstractcollection import AbstractCollection
 
+COMPUTER = 1
+
 
 class BTree(AbstractCollection):
     def __init__(self, root, computer_mark, human_mark, sourceCollection=None):
@@ -35,7 +37,7 @@ class BTree(AbstractCollection):
                 recurse(node.right, node_id)
 
         state = self.board
-        state[coords[0]][coords[1]] = self.computer_mark
+        state[coords[0]][coords[1]] = COMPUTER
 
         # Tree is empty, so new item goes at the root
         if self.isEmpty():

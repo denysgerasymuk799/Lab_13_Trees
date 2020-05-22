@@ -6,7 +6,7 @@ from os import system
 from btree import BTree
 
 HUMAN = -1
-COMPUTER = +1
+COMPUTER = 1
 
 
 def clean():
@@ -122,7 +122,7 @@ class Board(BTree):
             score = self.is_right_step(state, player_mark)
             return [-1, -1, score]
 
-        if player_mark == self.computer_mark:
+        if player_mark == COMPUTER:
             best = [-1, -1, -100000]
         else:
             best = [-1, -1, +100000]
@@ -168,12 +168,6 @@ class Board(BTree):
 
         :param c_choice: computer's choice X or O
         """
-        if c_choice == "X":
-            self.computer_mark = COMPUTER
-
-        else:
-            self.computer_mark = HUMAN
-
         depth = len(empty_cells(self.board))
         if depth == 0 or self.game_over(self.board):
             return
@@ -197,11 +191,6 @@ class Board(BTree):
         """
         :param h_choice: human's choice X or O
         """
-        if h_choice == "X":
-            self.human_mark = COMPUTER
-
-        else:
-            self.human_mark = HUMAN
         depth = len(empty_cells(self.board))
         if depth == 0 or self.game_over(self.board):
             return
